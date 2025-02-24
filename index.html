@@ -1,0 +1,1388 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+        <link rel="stylesheet" href="Asset/style.css">
+        <title>Restaurant</title>
+    </head>
+    <body>
+        
+        <!-- Header main -->
+        <header>
+            <nav class="nav_main_head"> 
+                <div class="logo"> Golden Star </div>
+                <ul class="title_ul">
+                    <li class="nav-link" ><a class="nav-A" href="#">Home</a></li>
+                    <li class="nav-link" ><a class="nav-A" href="#about">About</a></li>
+                    <li class="nav-link" ><a class="nav-A" href="#menu">Menu</a></li>
+                    <li class="nav-link" ><a class="nav-A" href="#events">Events</a></li>
+                    <li class="nav-link" ><a class="nav-A" href="#gallery">Gallery</a></li>
+                    <li class="nav-link" ><a class="nav-A" href="#chefs">Chefs</a></li>
+                    <li class="nav-link" ><a class="nav-A" href="#Contact">Contact us</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Header section -->
+        <section class="section_main">
+            <div class="slider_content">
+                <div class="slider_head">
+                    <div class="slide_top">
+                        <img src="/img/bg_main/background_1.png" alt="BBQ sausage">
+                    </div>
+                    <div class="slide_top">
+                        <img src="/img/bg_main/background_2.jpg" alt="collection of wine">
+                    </div>
+                    <div class="slide_top">
+                        <img src="/img/bg_main/background_3.png" alt="dinner table">
+                    </div>
+                </div>
+                <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                <button class="next" onclick="moveSlide(1)">&#10095;</button>
+            </div>
+            <div class="head_title_content">
+                <h3 class="welcome_h2">Welcome to <span class="span_logo">Golden Star</span></h2>
+                <p class="title_Text_head">Craving satisfaction? We've got you covered with wholesome, fresh, and packed with nutrients to
+                    Nourish your body, energize your life, and feel the difference with every delicious, guilt-free bite. Because health starts with what you put on your plate.</p>
+                <a href="#menu" class="btn">Order Now</a>
+                <a href="#contact" class="btn">Book Now</a>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- About section -->
+        <section class="about_section">
+            <div class="container">
+                <div class="about_content">
+                    <div class="about_image" data-aos="fade-right" data-aos-delay="100">
+                        <img src="/img/gallery/img_1.png" alt="Delicious Food" width="100%" height="100%">
+                    </div>
+                    <div class="about_text" data-aos="fade-left" data-aos-delay="200">
+                        <a name="about"><h1 class="about_H1">Experience a World of Flavors</h1></a>
+                        <p class="about_P">Crafted with passion, every bite takes you on a journey of taste and satisfaction. 
+                            Indulge in our specially curated menu, bringing the best Flavors from around the world.
+                        </p>
+                        <ul class="about_list">
+                            <li><a href="#" class="about_link">Fresh Ingredients & Quality</a></li>
+                            <li><a href="#" class="about_link">Exquisite Taste & Unique Recipes</a></li>
+                            <li><a href="#" class="about_link">Premium Service & Atmosphere</a></li>
+                        </ul>
+                        <p class="about_description">
+                            At <strong>Golden Star</strong>, we believe in offering not just food but an experience.
+                            Our chefs bring years of expertise to ensure every dish is crafted to perfection.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="why_choose_us">
+                <h2 class="about_H2">Why Choose <span style="color: goldenrod; font-family: Playwrite IN, serif; font-size: 32px;">Our Restaunrant</span></h2>
+                <div class="features">
+                    <div class="feature" data-aos="fade-up">
+                        <div class="text-p">
+                            <span class="feature_number">01</span>
+                            <h4 class="about_H4">"Healthy"</h4>
+                            <p class="about_P2">We use only the freshest ingredients to serve you nutritious and delicious meals.</p>
+                        </div>
+                    </div>
+                    <div class="feature" data-aos="fade-up" data-aos-delay="100">
+                        <div class="text-p">
+                            <span class="feature_number">02</span>
+                            <h4 class="about_H4">"Tasty"</h4>
+                            <p class="about_P2">Our chefs craft every dish with passion, bringing out rich and authentic flavors.</p>
+                        </div>
+                    </div>
+                    <div class="feature" data-aos="fade-up" data-aos-delay="200">
+                        <div class="text-p">
+                            <span class="feature_number">03</span>
+                            <h4 class="about_H4">"Quality"</h4>
+                            <p class="about_P2">We ensure top-notch quality in every bite, making your dining experience memorable.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Menu section all Fast food-->
+        <ul class="all-menu">
+            <li class="li-bg"><a name="menu"></a>
+                <div class="menu-all"><h8 class="text-menu" data-aos="fade-down"><b class="B_text">FAST FOOD</b><h8></div>
+            </li>
+        </ul>
+        <div class="card-container">
+            <div class="line1">
+                <div class="card" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="img/Menu/Fast_food/burger/burger with fries.jpg" alt="" class="img-food1">
+                    <div class="card-content">
+                        <div class="name-food">
+                            <h7>burger with fries</h7>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                        </div>
+                        <h1 >5.99$</h1>
+                        <div class="price">
+                            <a href="" class="btn">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="line1">
+                <div class="card" data-aos="zoom-in" data-aos-delay="400">
+                    <img src="img/Menu/Fast_food/chicken/Fried Chicken.jpg" alt="" class="img-food1">
+                    <div class="card-content">
+                        <div class="name-food">
+                            <h7>fried chicken</h7>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                        </div>
+                        <h1 >5.99$</h1>
+                        <div class="price">
+                            <a href="" class="btn">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="line1">
+                <div class="card" data-aos="zoom-in" data-aos-delay="500">
+                    <img src="img/Menu/Fast_food/pizza/Cheese.jpg" alt="" class="img-food1">
+                    <div class="card-content">
+                        <div class="name-food">
+                            <h7>Pizza cheese</h7>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                        </div>
+                        <h1 >5.99$</h1>
+                        <div class="price">
+                            <a href="" class="btn">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="line1">
+                <div class="card" data-aos="zoom-in" data-aos-delay="600">
+                    <img src="img/Menu/Fast_food/burger/fries and burger on white ceramic plate.jpg" alt="" class="img-food1">
+                    <div class="card-content">
+                        <div class="name-food">
+                            <h7>fries and burger</h7>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                        </div>
+                        <h1 >5.99$</h1>
+                        <div class="price">
+                            <a href="" class="btn">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card-container">
+            <div class="card"  data-aos="zoom-in" data-aos-delay="600">
+                <img src="img/Menu/Fast_food/pizza/Italian pizza.jpg" alt="" class="img-food1">
+                <div class="card-content">
+                    <div class="name-food">
+                        <h7>Italian pizza</h7>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                    </div>
+                    <h1 >5.99$</h1>
+                    <div class="price">
+                        <a href="" class="btn">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card"  data-aos="zoom-in" data-aos-delay="500">
+                <img src="img/Menu/Fast_food/pizza/Italian cuisine.jpg" alt="" class="img-food1">
+                <div class="card-content">
+                    <div class="name-food">
+                        <h7>Italian cuisine</h7>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                    </div>
+                    <h1 >5.99$</h1>
+                    <div class="price">
+                        <a href="" class="btn">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card"  data-aos="zoom-in" data-aos-delay="400">
+                <img src="img/Menu/Fast_food/pizza/pizza, tasty, and gastrinomy.jpg" alt="" class="img-food1">
+                <div class="card-content">
+                    <div class="name-food">
+                        <h7>normal pizza</h7>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                    </div>
+                    <h1 >5.99$</h1>
+                    <div class="price">
+                        <a href="" class="btn">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card"  data-aos="zoom-in" data-aos-delay="300">
+                <img src="img/Menu/Fast_food/pizza/Vegan pizza.jpg" alt="" class="img-food1">
+                <div class="card-content">
+                    <div class="name-food">
+                        <h7>Vegan pizza</h7>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                    </div>
+                    <h1 >5.99$</h1>
+                    <div class="price">
+                        <a href="" class="btn">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+                <!-- Menu section all fast food-->
+
+
+
+
+
+                <!-- Menu section sea food -->
+
+
+                <ul class="all-menu">
+                    <li class="li-bg"><a href="#dessert"></a>
+                        <div class="menu-all"><h8 class="text-menu" ><b class="B_text">SEA FOOD</b><h8></div>
+                    </li>
+                </ul>
+                <div class="card-container">
+                    <div class="line1">
+                        <div class="card" data-aos="zoom-in" data-aos-delay="300">
+                            <img src="img/Menu/Sea_food/1_lobster with cheese.jpg" alt="" class="img-food1">
+                            <div class="card-content">
+                                <div class="name-food">
+                                    <h7>lobster with cheese</h7>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                                </div>
+                                <h1 >5.99$</h1>
+                                <div class="price">
+                                    <a href="" class="btn">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="line1">
+                        <div class="card" data-aos="zoom-in" data-aos-delay="400">
+                            <img src="img/Menu/Sea_food/2_fresh lobster.jpg" alt="" class="img-food1">
+                            <div class="card-content">
+                                <div class="name-food">
+                                    <h7>seafood</h7>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                                </div>
+                                <h1 >5.99$</h1>
+                                <div class="price">
+                                    <a href="" class="btn">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="line1">
+                        <div class="card" data-aos="zoom-in" data-aos-delay="500">
+                            <img src="img/Menu/Sea_food/3_clam.jpg" alt="" class="img-food1">
+                            <div class="card-content">
+                                <div class="name-food">
+                                    <h7>Oyster</h7>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                                </div>
+                                <h1 >5.99$</h1>
+                                <div class="price">
+                                    <a href="" class="btn">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="line1">
+                        <div class="card" data-aos="zoom-in" data-aos-delay="600">
+                            <img src="img/Menu/Sea_food/4_crab.jpg" alt="" class="img-food1">
+                            <div class="card-content">
+                                <div class="name-food">
+                                    <h7>Big head crab</h7>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                                </div>
+                                <h1 >5.99$</h1>
+                                <div class="price">
+                                    <a href="" class="btn">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card" data-aos="zoom-in" data-aos-delay="600">
+                        <img src="img/Menu/Sea_food/5_set seafood.jpg" alt="" class="img-food1">
+                        <div class="card-content">
+                            <div class="name-food">
+                                <h7>Octopus</h7>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                            </div>
+                            <h1 >5.99$</h1>
+                            <div class="price">
+                                <a href="" class="btn">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                
+                
+                    <div class="card" data-aos="zoom-in" data-aos-delay="500">
+                        <img src="img/Menu/Sea_food/6_seafood.png" alt="" class="img-food1">
+                        <div class="card-content">
+                            <div class="name-food">
+                                <h7>Lobster fresh</h7>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                            </div>
+                            <h1 >5.99$</h1>
+                            <div class="price">
+                                <a href="" class="btn">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                
+                
+                    <div class="card" data-aos="zoom-in" data-aos-delay="400">
+                        <img src="img/Menu/Sea_food/7_ouyyy.png" alt="" class="img-food1">
+                        <div class="card-content">
+                            <div class="name-food">
+                                <h7>Set oyster</h7>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                            </div>
+                            <h1 >5.99$</h1>
+                            <div class="price">
+                                <a href="" class="btn">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                
+                
+                    <div class="card" data-aos="zoom-in" data-aos-delay="300">
+                        <img src="img/Menu/Sea_food/8_Fish.png" alt="" class="img-food1">
+                        <div class="card-content">
+                            <div class="name-food">
+                                <h7>Mixed Sea food</h7>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                            </div>
+                            <h1 >5.99$</h1>
+                            <div class="price">
+                                <a href="" class="btn">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Menu section dessert -->
+
+
+
+                <!-- Menu section drink-->
+                </div>
+                    <ul class="all-menu">
+                        <li class="li-bg"><a href="#dessert"></a>
+                            <div class="menu-all"><h8 class="text-menu"><b class="B_text">JAPAN FOOD</b><h8></div>
+                        </li>
+                    </ul>
+                <div class="card-container">
+                    <div class="line1">
+                        <div class="card" data-aos="zoom-in" data-aos-delay="300">
+                            <img src="img/Menu/Japan_food/1_dango.jpg" alt="" class="img-food1">
+                            <div class="card-content">
+                                <div class="name-food">
+                                    <h7>Dango</h7>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                                </div>
+                                <h1 >5.99$</h1>
+                                <div class="price">
+                                    <a href="" class="btn">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                        <div class="line1">
+                            <div class="card" data-aos="zoom-in" data-aos-delay="400">
+                                <img src="img/Menu/Japan_food/2_anago.jpg" alt="" class="img-food1">
+                                <div class="card-content">
+                                    <div class="name-food">
+                                        <h7>Anago</h7>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                                    </div>
+                                    <h1 >5.99$</h1>
+                                    <div class="price">
+                                        <a href="" class="btn">Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="line1">
+                            <div class="card" data-aos="zoom-in" data-aos-delay="500">
+                                <img src="img/Menu/Japan_food/3_f sushi.jpg" alt="" class="img-food1">
+                                <div class="card-content">
+                                    <div class="name-food">
+                                        <h7>Sushi</h7>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                                    </div>
+                                    <h1 >5.99$</h1>
+                                    <div class="price">
+                                        <a href="" class="btn">Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="line1">
+                            <div class="card" data-aos="zoom-in" data-aos-delay="600">
+                                <img src="img/Menu/Japan_food/4_fried dish.jpg" alt="" class="img-food1">
+                                <div class="card-content">
+                                    <div class="name-food">
+                                        <h7>Fried Dish</h7>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                                    </div>
+                                    <h1 >5.99$</h1>
+                                    <div class="price">
+                                        <a href="" class="btn">Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-container">
+                    <div class="card" data-aos="zoom-in" data-aos-delay="600">
+                        <img src="img/Menu/Japan_food/5_meat.jpg" alt="" class="img-food1">
+                        <div class="card-content">
+                            <div class="name-food">
+                                <h7>Meat</h7>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                            </div>
+                            <h1 >5.99$</h1>
+                            <div class="price">
+                                <a href="" class="btn">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                
+                
+                    <div class="card" data-aos="zoom-in" data-aos-delay="500">
+                        <img src="img/Menu/Japan_food/6_set sushi.jpg" alt="" class="img-food1">
+                        <div class="card-content">
+                            <div class="name-food">
+                                <h7>set sushi</h7>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                            </div>
+                            <h1 >5.99$</h1>
+                            <div class="price">
+                                <a href="" class="btn">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                
+                
+                    <div class="card" data-aos="zoom-in" data-aos-delay="400">
+                        <img src="img/Menu/Japan_food/7_ramen.jpg" alt="" class="img-food1">
+                        <div class="card-content">
+                            <div class="name-food">
+                                <h7>ramen</h7>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                            </div>
+                            <h1 >5.99$</h1>
+                            <div class="price">
+                                <a href="" class="btn">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                
+                
+                    <div class="card" data-aos="zoom-in" data-aos-delay="300">
+                        <img src="img/Menu/Japan_food/8_set.jpg" alt="" class="img-food1">
+                        <div class="card-content">
+                            <div class="name-food">
+                                <h7>Salad</h7>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                            </div>
+                            <h1 >5.99$</h1>
+                            <div class="price">
+                                <a href="" class="btn">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <!-- Menu section drink-->
+
+                    <!-- Menu section fast food-->    
+                    <ul class="all-menu">
+                        <li class="li-bg"><a href="#dessert"></a>
+                            <div class="menu-all"><h8 class="text-menu"><b class="B_text">DESSERT</b><h8></div>
+                        </li>
+                    </ul>
+                    <div class="card-container">
+                            <div class="line1">
+                                <div class="card" data-aos="zoom-in" data-aos-delay="300">
+                                    <img src="img/Menu/Dessert/1_bananas-dessert-ice-cream-fruit-47062.webp" alt="" class="img-food1">
+                                    <div class="card-content">
+                                        <div class="name-food">
+                                            <h7>Ice Cream</h7>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                                        </div>
+                                        <h1 >5.99$</h1>
+                                        <div class="price">
+                                            <a href="" class="btn">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="line1">
+                                <div class="card" data-aos="zoom-in" data-aos-delay="400">
+                                    <img src="img/Menu/Dessert/2_dessert.jpeg" alt="" class="img-food1">
+                                    <div class="card-content">
+                                        <div class="name-food">
+                                            <h7>Chocolate Starwberry</h7>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                                        </div>
+                                        <h1 >5.99$</h1>
+                                        <div class="price">
+                                            <a href="" class="btn">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="line1">
+                                <div class="card" data-aos="zoom-in" data-aos-delay="500">
+                                    <img src="img/Menu/Dessert/3_dessert.webp" alt="" class="img-food1">
+                                    <div class="card-content">
+                                        <div class="name-food">
+                                            <h7>Small Cake</h7>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                                        </div>
+                                        <h1 >5.99$</h1>
+                                        <div class="price">
+                                            <a href="" class="btn">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="line1">
+                                <div class="card" data-aos="zoom-in" data-aos-delay="600">
+                                    <img src="img/Menu/Dessert/4_dessert.jpeg" alt="" class="img-food1">
+                                    <div class="card-content">
+                                        <div class="name-food">
+                                            <h7>Big Cake</h7>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                                        </div>
+                                        <h1 >5.99$</h1>
+                                        <div class="price">
+                                            <a href="" class="btn">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+    
+    
+                    <div class="card-container">
+                        <div class="card" data-aos="zoom-in" data-aos-delay="600">
+                            <img src="img/Menu/Dessert/5_cake.jpg" alt="" class="img-food1">
+                            <div class="card-content">
+                                <div class="name-food">
+                                    <h7>Fashion Cake</h7>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                                </div>
+                                <h1 >5.99$</h1>
+                                <div class="price">
+                                    <a href="" class="btn">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    
+                        <div class="card" data-aos="zoom-in" data-aos-delay="500">
+                            <img src="img/Menu/Dessert/6_cream-puffs.jpg" alt="" class="img-food1">
+                            <div class="card-content">
+                                <div class="name-food">
+                                    <h7>Cream-puffs</h7>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                                </div>
+                                <h1 >5.99$</h1>
+                                <div class="price">
+                                    <a href="" class="btn">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    
+                        <div class="card" data-aos="zoom-in" data-aos-delay="400">
+                            <img src="img/Menu/Dessert/7_kobby-mendez-idTwDKt2j2o-unsplash.jpg" alt="" class="img-food1">
+                            <div class="card-content">
+                                <div class="name-food">
+                                    <h7>Ice cream with honey</h7>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                                </div>
+                                <h1 >5.99$</h1>
+                                <div class="price">
+                                    <a href="" class="btn">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    
+                        <div class="card" data-aos="zoom-in" data-aos-delay="300">
+                            <img src="img/Menu/Dessert/8_dessert.png" alt="" class="img-food1">
+                            <div class="card-content">
+                                <div class="name-food">
+                                    <h7>Chocolate cake</h7>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                                </div>
+                                <h1 >5.99$</h1>
+                                <div class="price">
+                                    <a href="" class="btn">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Menu section fast food-->
+                    </div>
+                        <!-- Menu section heathy food-->  
+                    <ul class="all-menu">
+                        <li class="li-bg"><a href="#dessert"></a>
+                            <div class="menu-all"><h8 class="text-menu"><b class="B_text">DRINK</b><h8></div>
+                        </li>
+                    </ul>
+                    <div class="card-container">
+                            <div class="line1">
+                                <div class="card" data-aos="zoom-in" data-aos-delay="300">
+                                    <img src="img/Menu/Drink/1_orange.png" alt="" class="img-food1">
+                                    <div class="card-content">
+                                        <div class="name-food">
+                                            <h7>orange smooty</h7>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                                        </div>
+                                        <h1 >5.99$</h1>
+                                        <div class="price">
+                                            <a href="" class="btn">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="line1">
+                                <div class="card" data-aos="zoom-in" data-aos-delay="400">
+                                    <img src="img/Menu/Drink/2_whisky.png" alt="" class="img-food1">
+                                    <div class="card-content">
+                                        <div class="name-food">
+                                            <h7>Chivas</h7>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                                        </div>
+                                        <h1 >5.99$</h1>
+                                        <div class="price">
+                                            <a href="" class="btn">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="line1">
+                                <div class="card" data-aos="zoom-in" data-aos-delay="500">
+                                    <img src="img/Menu/Drink/3_reservado.png" alt="" class="img-food1">
+                                    <div class="card-content">
+                                        <div class="name-food">
+                                            <h7>Red wine</h7>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                                        </div>
+                                        <h1 >5.99$</h1>
+                                        <div class="price">
+                                            <a href="" class="btn">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="line1">
+                                <div class="card" data-aos="zoom-in" data-aos-delay="600">
+                                    <img src="img/Menu/Drink/4_Lemon cocktail.png" alt="" class="img-food1">
+                                    <div class="card-content">
+                                        <div class="name-food">
+                                            <h7>Green leave juice</h7>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                                        </div>
+                                        <h1 >5.99$</h1>
+                                        <div class="price">
+                                            <a href="" class="btn">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+    
+    
+                    <div class="card-container">
+                        <div class="card" data-aos="zoom-in" data-aos-delay="600">
+                            <img src="img/Menu/Drink/5_Juice Cocktail.png" alt="" class="img-food1">
+                            <div class="card-content">
+                                <div class="name-food">
+                                    <h7>lemon juice</h7>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                                </div>
+                                <h1 >5.99$</h1>
+                                <div class="price">
+                                    <a href="" class="btn">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    
+                        <div class="card" data-aos="zoom-in" data-aos-delay="500">
+                            <img src="img/Menu/Drink/6_Smoothies Starwberry.png" alt="" class="img-food1">
+                            <div class="card-content">
+                                <div class="name-food">
+                                    <h7>Starwberry smooty<h7>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                                </div>
+                                <h1 >5.99$</h1>
+                                <div class="price">
+                                    <a href="" class="btn">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    
+                        <div class="card" data-aos="zoom-in" data-aos-delay="400">
+                            <img src="img/Menu/Drink/7_Pineapple Cocktail.png" alt="" class="img-food1">
+                            <div class="card-content">
+                                <div class="name-food">
+                                    <h7>Pineapple Cocktail</h7>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                                </div>
+                                <h1 >5.99$</h1>
+                                <div class="price">
+                                    <a href="" class="btn">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    
+                        <div class="card" data-aos="zoom-in" data-aos-delay="300">
+                            <img src="img/Menu/Drink/8_Martini.png" alt="" class="img-food1">
+                            <div class="card-content">
+                                <div class="name-food">
+                                    <h7>Martini</h7>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                                </div>
+                                <h1 >5.99$</h1>
+                                <div class="price">
+                                    <a href="" class="btn">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Menu section heathy food-->
+                    </div>
+
+                    <ul class="all-menu">
+                        <li class="li-bg"><a href="#dessert"></a>
+                            <div class="menu-all"><h8 class="text-menu"><b class="B_text">MEAL SET</b><h8></div>
+                        </li>
+                    </ul>
+                    <div class="card-container">
+                            <div class="line1">
+                                <div class="card" data-aos="zoom-in" data-aos-delay="300">
+                                    <img src="img/Menu/Set_food/1_pexels-ella-olsson-572949-1640772.jpg" alt="" class="img-food1">
+                                    <div class="card-content">
+                                        <div class="name-food">
+                                            <h7>Set 1</h7>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                                        </div>
+                                        <h1 >5.99$</h1>
+                                        <div class="price">
+                                            <a href="" class="btn">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="line1">
+                                <div class="card" data-aos="zoom-in" data-aos-delay="400">
+                                    <img src="img/Menu/Set_food/2_pexels-rachel-claire-5490897.jpg" alt="" class="img-food1">
+                                    <div class="card-content">
+                                        <div class="name-food">
+                                            <h7>Set 2</h7>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                                        </div>
+                                        <h1 >5.99$</h1>
+                                        <div class="price">
+                                            <a href="" class="btn">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="line1">
+                                <div class="card" data-aos="zoom-in" data-aos-delay="500">
+                                    <img src="img/Menu/Set_food/3_pexels-jonathanborba-2878745.jpg" alt="" class="img-food1">
+                                    <div class="card-content">
+                                        <div class="name-food">
+                                            <h7>Set 3</h7>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                                        </div>
+                                        <h1 >5.99$</h1>
+                                        <div class="price">
+                                            <a href="" class="btn">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="line1">
+                                <div class="card" data-aos="zoom-in" data-aos-delay="600">
+                                    <img src="img/Menu/Set_food/4_Summer Cocktail Set.png" alt="" class="img-food1">
+                                    <div class="card-content">
+                                        <div class="name-food">
+                                            <h7>Set 4</h7>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                                        </div>
+                                        <h1 >5.99$</h1>
+                                        <div class="price">
+                                            <a href="" class="btn">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+    
+    
+                    <div class="card-container">
+                        <div class="card" data-aos="zoom-in" data-aos-delay="600">
+                            <img src="img/Menu/Set_food/5_sushi_sey.png" alt="" class="img-food1">
+                            <div class="card-content">
+                                <div class="name-food">
+                                    <h7>Set 5</h7>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                                </div>
+                                <h1 >5.99$</h1>
+                                <div class="price">
+                                    <a href="" class="btn">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    
+                        <div class="card" data-aos="zoom-in" data-aos-delay="500">
+                            <img src="img/Menu/Set_food/6_chicken_set.png" alt="" class="img-food1">
+                            <div class="card-content">
+                                <div class="name-food">
+                                    <h7>Set 6</h7>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                                </div>
+                                <h1 >5.99$</h1>
+                                <div class="price">
+                                    <a href="" class="btn">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    
+                        <div class="card" data-aos="zoom-in" data-aos-delay="400">
+                            <img src="img/Menu/Set_food/7_pizza, tasty, and gastrinomy.jpg" alt="" class="img-food1">
+                            <div class="card-content">
+                                <div class="name-food">
+                                    <h7>Set 7</h7>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                                </div>
+                                <h1 >5.99$</h1>
+                                <div class="price">
+                                    <a href="" class="btn">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    
+                        <div class="card" data-aos="zoom-in" data-aos-delay="300">
+                            <img src="img/Menu/Set_food/8_big set steak.jpg" alt="" class="img-food1">
+                            <div class="card-content">
+                                <div class="name-food">
+                                    <h7>Set 8</h7>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                                </div>
+                                <h1 >5.99$</h1>
+                                <div class="price">
+                                    <a href="" class="btn">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Menu section heathy food-->
+                    </div>
+
+
+                    <ul class="all-menu">
+                        <li class="li-bg"><a href="#dessert"></a>
+                            <div class="menu-all"><h8 class="text-menu"><b class="B_text">STEAK</b><h8></div>
+                        </li>
+                    </ul>
+                    <div class="card-container">
+                            <div class="line1">
+                                <div class="card" data-aos="zoom-in" data-aos-delay="300">
+                                    <img src="img/Menu/Steak/1_steak.png" alt="" class="img-food1">
+                                    <div class="card-content">
+                                        <div class="name-food">
+                                            <h7>Steak type 1</h7>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                                        </div>
+                                        <h1 >5.99$</h1>
+                                        <div class="price">
+                                            <a href="" class="btn">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="line1">
+                                <div class="card" data-aos="zoom-in" data-aos-delay="400">
+                                    <img src="img/Menu/Steak/2_steak.png" alt="" class="img-food1">
+                                    <div class="card-content">
+                                        <div class="name-food">
+                                            <h7>Steak type 2</h7>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                                        </div>
+                                        <h1 >5.99$</h1>
+                                        <div class="price">
+                                            <a href="" class="btn">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="line1">
+                                <div class="card" data-aos="zoom-in" data-aos-delay="500">
+                                    <img src="img/Menu/Steak/3_pexels-hasan-kurt-154798938-10749578.jpg" alt="" class="img-food1">
+                                    <div class="card-content">
+                                        <div class="name-food">
+                                            <h7>Steak type 3</h7>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                                        </div>
+                                        <h1 >5.99$</h1>
+                                        <div class="price">
+                                            <a href="" class="btn">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="line1">
+                                <div class="card" data-aos="zoom-in" data-aos-delay="600">
+                                    <img src="img/Menu/Steak//4_roast steak.jpg" alt="" class="img-food1">
+                                    <div class="card-content">
+                                        <div class="name-food">
+                                            <h7>Steak type 4</h7>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                                        </div>
+                                        <h1 >5.99$</h1>
+                                        <div class="price">
+                                            <a href="" class="btn">Order Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+    
+    
+                    <div class="card-container">
+                        <div class="card" data-aos="zoom-in" data-aos-delay="600">
+                            <img src="img/Menu/Steak/5_roast, steak with french fries.jpg" alt="" class="img-food1">
+                            <div class="card-content">
+                                <div class="name-food">
+                                    <h7>steak with french fries</h7>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                                </div>
+                                <h1 >5.99$</h1>
+                                <div class="price">
+                                    <a href="" class="btn">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    
+                        <div class="card" data-aos="zoom-in" data-aos-delay="500">
+                            <img src="img/Menu/Steak/6_grilled meat and vegetable.jpg" alt="" class="img-food1">
+                            <div class="card-content">
+                                <div class="name-food">
+                                    <h7>grilled meat and vegetable</h7>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                                </div>
+                                <h1 >5.99$</h1>
+                                <div class="price">
+                                    <a href="" class="btn">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    
+                        <div class="card" data-aos="zoom-in" data-aos-delay="400">
+                            <img src="img/Menu/Steak/7_set steak.jpg" alt="" class="img-food1">
+                            <div class="card-content">
+                                <div class="name-food">
+                                    <h7>set steak</h7>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                                </div>
+                                <h1 >5.99$</h1>
+                                <div class="price">
+                                    <a href="" class="btn">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    
+                        <div class="card" data-aos="zoom-in" data-aos-delay="300">
+                            <img src="img/Menu/Steak/8_big set steak.jpg" alt="" class="img-food1">
+                            <div class="card-content">
+                                <div class="name-food">
+                                    <h7>big set steak</h7>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere repudiandae doloribus commodi? Incidunt, perferendis! Excepturi ab nisi magnam at quam iusto velit asperiores reprehenderit, temporibus, qui quos nesciunt sequi!</p>
+                                </div>
+                                <h1 >5.99$</h1>
+                                <div class="price">
+                                    <a href="" class="btn">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Menu section heathy food-->
+                    </div>
+                    
+                    
+            </section>
+
+
+
+
+
+            <section class="Events">
+                <li>
+                    <a name="events">
+                        <h3 class="events_title" data-aos="fade-up" data-aos-duration="300"> Our Special Events</h3>
+                    </a>
+                </li>
+                <div class="events-container">
+                    <div class="events-box" data-aos="fade-up" data-aos-duration="1800">
+                        <img src="img/Event_img/events-slider-1.jpg" alt="" class="Events_ph_1">
+                        <div class="events_content">
+                            <h3 class="events-h3" >Birthday Parties</h3>
+                            <p class="events-p" >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum esse quas perspiciatis qui, asperiores placeat repudiandae maxime sunt non veritatis obcaecati voluptate quis blanditiis molestiae magni voluptatem, id eius architecto.</p>
+                        </div>
+                    </div>
+                    <div class="events-box" data-aos="fade-up" data-aos-duration="1800">
+                        <img src="img/Event_img/events-slider-2.png" alt="" class="Events_ph_1">
+                        <div class="events_content">
+                            <h3 class="events-h3" >Private Parties</h3>
+                            <p class="events-p" >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum esse quas perspiciatis qui, asperiores placeat repudiandae maxime sunt non veritatis obcaecati voluptate quis blanditiis molestiae magni voluptatem, id eius architecto.</p>
+                        </div>
+                    </div>
+                    <div class="events-box" data-aos="fade-up" data-aos-duration="1800">
+                        <img src="img/Event_img/events-slider-3.jpg" alt="" class="Events_ph_1">
+                        <div class="events_content">
+                            <h3 class="events-h3" >Custom Parties</h3>
+                            <p class="events-p" >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum esse quas perspiciatis qui, asperiores placeat repudiandae maxime sunt non veritatis obcaecati voluptate quis blanditiis molestiae magni voluptatem, id eius architecto.</p>
+                        </div>
+                    </div>
+                </div>
+            </section> 
+
+
+
+
+            <section class="galleryy">
+                <div class="gallery-heading">
+                    <li><a name="gallery"></a>
+                        <div class="gallery_title" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                            <div class="gallery_H1">
+                                <h1 class="gala1">Gallery</h1>
+                            </div>
+                            <p class="gala">Some photos from <span> Our Restaurant </span></p>
+                        </div>
+                    </li>
+                </div>
+                <ul class="gallery-list" data-aos="fade-up" data-aos-duration="1000">
+                    <li>
+                        <img src="img/gallery/img_1.png" alt="" class="photo1" >
+                    </li>
+                    <li>
+                        <img src="img/gallery/img_2.png" alt="" class="photo1" >
+                    </li>
+                    <li>
+                        <img src="img/gallery/img_3.png" alt="" class="photo1" >
+                    </li>
+                    <li>
+                        <img src="img/gallery/img_4.png" alt="" class="photo1" >
+                    </li>
+                    <li>
+                        <img src="img/gallery/img_5.png" alt="" class="photo1" >
+                    </li>
+                    <li>
+                        <img src="img/gallery/img_6.png" alt="" class="photo2" >
+                    </li>
+                </ul>
+            </section>
+
+
+
+
+            <!-- background-color:#6587A1; -->
+            <!-- color: #b6e3ff -->
+            <section class="Chef">
+                <div class="line_1"></div>
+                <li><a name="chefs"></a></li>
+                    <div class="chef_heading" data-aos="fade-up" data-aos-duration="800">
+                        <h1 class="chef_title">Our Professional Chefs</h1>
+                    </div>
+                        <p class="title_P" data-aos="fade-up" data-aos-duration="1000">Meet our passionate chefs who create dishes that tantalize your taste buds</p>
+                    </div>
+                    <div class="main_chef_box" data-aos="fade-up" data-aos-duration="1300">
+                        <div class="chef_team">
+                            <img src="img/Chef/chef_1.jpg" alt="" class="chef-ho">
+                            <h3 class="chef_h3">Chefs Kim Sor</h3>
+                            <p class="role">Create recipes</p>
+                            <p>Magni qui quod omnis unde et eos fuga et exercitationem.</p>
+                            <div class="social-icons">
+                                <a href="#">✖️</a>
+                                <a href="#">⚙️</a>
+                                <a href="#">🔗</a>
+                                <a href="#">📷</a>
+                            </div>
+                        </div>
+                        <div class="chef_team">
+                            <img src="img/Chef/chef_2.png" alt="">
+                            <h3 class="chef_h3">Chefs Sara Phy</h3>
+                            <p class="role">Kitchen Manegement</p>
+                            <p>Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus.</p>
+                            <div class="social-icons">
+                                <a href="#">✖️</a>
+                                <a href="#">⚙️</a>
+                                <a href="#">🔗</a>
+                                <a href="#">📷</a>
+                            </div>
+                        </div>
+                        <div class="chef_team">
+                            <img src="img/Chef/chef_3.png" alt="">
+                            <h3 class="chef_h3">Chefs Sukeang</h3>
+                            <p class="role">Food Safety</p>
+                            <p>Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus.</p>
+                            <div class="social-icons">
+                                <a href="#">✖️</a>
+                                <a href="#">⚙️</a>
+                                <a href="#">🔗</a>
+                                <a href="#">📷</a>
+                            </div>
+                        </div>
+                        <div class="chef_team">
+                            <img src="img/Chef/chef_4.png" alt="">
+                            <h3 class="chef_h3">Chefs Bunleng</h3>
+                            <p class="role">Wine/japan Food</p>
+                            <p>Magni qui quod omnis unde et eos fuga et exercitationem.</p>
+                            <div class="social-icons">
+                                <a href="#">✖️</a>
+                                <a href="#">⚙️</a>
+                                <a href="#">🔗</a>
+                                <a href="#">📷</a>
+                            </div>
+                        </div>
+                        <div class="chef_team">
+                            <img src="img/Chef/chef_5.png" alt="">
+                            <h3 class="chef_h3">Chefs Panha</h3>
+                            <p class="role">Head Chef</p>
+                            <p>Magni qui quod omnis unde et eos fuga et exercitationem.</p>
+                            <div class="social-icons">
+                                <a href="#">✖️</a>
+                                <a href="#">⚙️</a>
+                                <a href="#">🔗</a>
+                                <a href="#">📷</a>
+                            </div>
+                        </div>
+                        <div class="chef_team">
+                            <img src="img/Chef/chef_6.png" alt="">
+                            <h3 class="chef_h3">Chefs SunChay</h3>
+                            <p class="role">Europe Chef</p>
+                            <p>Magni qui quod omnis unde et eos fuga et exercitationem.</p>
+                            <div class="social-icons">
+                                <a href="#">✖️</a>
+                                <a href="#">⚙️</a>
+                                <a href="#">🔗</a>
+                                <a href="#">📷</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+
+
+
+            <section>
+                <div class="bg_contain">
+                    <ul class="content_wo_eh1">
+                        <li class="li1"><a name="Contact"></a>
+                                <div class="text_menu" data-aos="zoom-in-down" data-aos-delay="180">
+                                    <div class="text_menu_kon2">
+                                        <h1 class="text-letter">Contact</h1>
+                                    </div>                               
+                                </div>
+                                <div class="para"><p >Check Out <span class="Contact1">our Location</span></p></div>
+                            
+                            <div class="location">
+                                <div class="con-map">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3909.067625592865!2d104.9504405!3d11.547006699999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109570056d9c655%3A0x3d7ea5a1a43972ae!2sNorea%20Palace!5e0!3m2!1skm!2skh!4v1739434883226!5m2!1skm!2skh" class="map"></iframe> 
+                                </div>
+                                    
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+            </section>
+            <section>
+                <div class="bg_contain">
+                    <ul class="content_wo_eh1">
+                        <li class="li1"><a name="Contact"></a>
+                                <div class="text_menu" data-aos="zoom-in-down" data-aos-delay="180">
+                                    <div class="text_menu_kon2">
+                                        <h1 class="text-letter">Booking</h1>
+                                    </div>                               
+                                </div>
+                                <div class="para"><p >Booking a<span class="Contact1">Table Below</span></p></div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="inbox">
+                    <ul class="all-menu">
+                        <li class="li-bg"><a name="contact"></a>
+                            <div class="inbox_info">
+                                <div class="receipt">
+                                    <img src="img/receptionist.jpg" alt="">
+                                </div>
+                                <div class="input_info">
+                                    <form action="">
+                                        <input type="text" placeholder="Your name">
+                                        <input type="text" name="" id="" placeholder="Your Email">
+                                        <input type="text" name="" id="" placeholder="Your Phone"><br>
+                                        <div class="date_design">
+                                            <input type="date" name="" id="" placeholder="Date">
+                                            <input type="time" placeholder="Time">
+                                            <input type="number" name="" id="" placeholder="#"><br>
+                                        </div>
+                                        
+                                        <textarea name="" id=""  placeholder="Message"></textarea><br>
+                                        <div class="button_booking"> 
+                                            <button type="submit">Booking</button>
+        
+                                        </div>
+                                       
+                                    </form>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                </div>
+
+            </section>
+
+
+            
+            
+            
+
+
+
+            
+            <script>
+                AOS.init();
+            </script>
+        <script src="script.js"></script>
+    </body>
+    <footer>
+        <div class="footer_content">
+            <div class="footer_row">
+                
+                <div class="footer_col">
+                    <div class="title_head">
+                        <h1 class="restaurant_head">Restaurant</h1>
+                    </div>
+                    
+                    <h1 class="restaurant_text">About us</h1>
+                    <h1 class="restaurant_text">Our Service</h1>
+                    <h1 class="restaurant_text">Privacy Policy</h1>
+                    <h1 class="restaurant_text">Order</h1>
+                </div>
+                <div class="footer_col">
+                    <div class="title_head">
+                        <h1 class="restaurant_head">Network</h1>
+                    </div>
+                    <h1 class="restaurant_text">Coffee Conor</h1>
+                    <h1 class="restaurant_text">Amazon Restaurant</h1>
+                    <h1 class="restaurant_text">Five Stars Restaurant</h1>
+                </div>
+                <div class="footer_col">
+                    <div class="title_head">
+                        <h1 class="restaurant_head">Product</h1>
+                    </div>
+                    <h1 class="restaurant_text">Food</h1>
+                    <h1 class="restaurant_text">Drink</h1>
+                    
+                </div>
+                <div class="footer_col">
+                    <div class="title_head">
+                        <h1 class="restaurant_head">Email</h1>
+                    </div>
+                    <h1 class="restaurant_text">Songrothpanha1@gmail.com</h1>
+                    <h1 class="restaurant_text">0716721688 (MetPhone)</h1>
+                    <h1 class="restaurant_text">016657995 (Smart)</h1>
+                    <h1 class="restaurant_text">095633538 (CellCard)</h1>
+                    
+                </div>
+                <div class="footer_col">
+                    <div class="title_head">
+                        <h1 class="restaurant_head">Numbers</h1>
+                    </div>
+                    
+                    <h1 class="restaurant_text">#855: 716721688 (MetPhone)</h1>
+                    <h1 class="restaurant_text">#855: 16657995 (Smart)</h1>
+                    <h1 class="restaurant_text">#855: 95633538 (CellCard)</h1>
+                    
+                </div>
+                <div class="footer_col">
+                    <div class="title_head">
+                        <h1 class="restaurant_head">Contact</h1>
+                    </div>
+                    <div class="icon-facebook" style="border-radius: 50%;">
+                        <img src="img/logo/logo_1.png" alt="" width="25px" height="25px" style="margin: 10px 10px;">
+                    </div>
+                    <div class="icon-twitter">
+                        <img src="img/logo/logo_2.png" alt=""  width="25px" height="25px" style="margin: 10px 10px; ">
+
+                    </div>
+                    <div class="icon-instragram">
+                        <img src="img/logo/logo_3.png" alt=""  width="25px" height="25px" style="margin: 10px 10px;">
+                    </div>
+                    <div class="icon-telegram">
+                        <img src="img/logo/logo_4.png" alt=""  width="25px" height="25px" style="margin: 10px 10px;" >
+                    </div>
+                </div>
+                
+            </div>
+            <div class="line3">
+
+            </div>
+            <h1 class="Text_under_footer">© Copyright Delicious All Rights Reserved</h1>
+            <h1 class="Text_under_footer">Designed by <span class="owner_designer">Nha Ker</span></h1>
+
+            
+        </div>
+    </footer>
+</html>
